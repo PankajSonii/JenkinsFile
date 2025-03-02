@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage('git clone'){
             steps{
-                git url: 'https://github.com/PankajSonii/war-web-project.git', branch: 'main' 
+                git url: 'https://github.com/PankajSonii/war-web-project.git', branch: 'master' 
             }
         }
         stage('build'){
